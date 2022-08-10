@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 13px;
+}
+
+.container {
+  width: 60%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* container-one-open */
+
+.container-one {
+  width: 600px;
+  height: 280px;
+  background: hsl(263, 55%, 52%);
+  border: none;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 30px;
+}
+
+.container-one-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-one-image img {
+  width: 30px;
+  border: 2px solid hsl(263, 100%, 66%);
+  border-radius: 50%;
+}
+
+.container-one-name {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  left: 13px;
+  align-items: left;
+  text-align: left;
+  font-weight: 500;
+}
+.span-opacity {
+  opacity: 50%;
+  font-size: 11px;
+  font-weight: lighter;
+}
+.container-one-texts {
+  font-size: 13px;
+  align-items: left;
+  text-align: left;
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.container-one-texts h4 {
+  font-size: 20px;
+}
+.container-one-texts p {
+  font-size: 13px;
+  margin-top: 20px;
+  opacity: 50%;
+  font-weight: 500;
+}
+
+/* container-one-close */
+
+/*container-tow-open */
+
+.container-two {
+  width: 250px;
+  height: 280px;
+  background: hsl(217, 19%, 35%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 30px;
+}
+.container-two-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-two-image img {
+  width: 30px;
+  border: 2px solid hsl(217, 19%, 35%);
+  border-radius: 50%;
+}
+.container-two-name {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  left: 13px;
+  align-items: left;
+  text-align: left;
+  font-weight: 500;
+}
+.span-opacity-two {
+  opacity: 50%;
+  font-size: 11px;
+  font-weight: lighter;
+}
+.container-two-texts {
+  font-size: 13px;
+  align-items: left;
+  text-align: left;
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.container-two-texts h4 {
+  font-size: 20px;
+}
+.container-two-texts p {
+  font-size: 13px;
+  margin-top: 20px;
+  opacity: 65%;
+  font-weight: 500;
+}
+
+/* container-two-close */
+
+/* container-tree-open */
+
+.container-tree {
+  width: 250px;
+  height: 280px;
+  background: hsl(0, 0%, 100%);
+  align-content: flex-start;
+  color: hsl(217, 19%, 35%);
+  border: none;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 30px;
+}
+.container-tree-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-tree-image img {
+  width: 30px;
+  border: 2px solid hsl(217, 19%, 35%);
+  border-radius: 50%;
+}
+.container-tree-name {
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  left: 13px;
+  align-items: left;
+  text-align: left;
+  font-weight: 500;
+}
+.span-opacity-tree {
+  opacity: 50%;
+  font-size: 11px;
+  font-weight: lighter;
+}
+.container-tree-texts {
+  font-size: 13px;
+  align-items: left;
+  text-align: left;
+  margin-top: 20px;
+  color: hsl(217, 19%, 35%);
+}
+.container-tree-texts h4 {
+  font-size: 20px;
+}
+.container-tree-texts p {
+  font-size: 13px;
+  margin-top: 20px;
+  opacity: 70%;
+  font-weight: 500;
+}
+
+/* container-tree-close */
+
+/* container-four-open */
+
+.container-four {
+  width: 600px;
+  height: 280px;
+  background: hsl(219, 29%, 14%);
+  border: none;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 30px;
+}
+
+.container-four-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-four-image img {
+  width: 30px;
+  border: 2px solid hsl(219, 29%, 14%);
+  border-radius: 50%;
+}
+
+.container-four-name {
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  left: 13px;
+  align-items: left;
+  text-align: left;
+  font-weight: 500;
+}
+.span-opacity {
+  opacity: 50%;
+  font-size: 11px;
+  font-weight: lighter;
+}
+.container-four-texts {
+  font-size: 13px;
+  align-items: left;
+  text-align: left;
+  margin-top: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.container-four-texts h4 {
+  font-size: 20px;
+}
+.container-four-texts p {
+  font-size: 13px;
+  margin-top: 20px;
+  opacity: 50%;
+  font-weight: 500;
+}
+
+/* container-four-close */
+
+/*container-five-open */
+
+.container-five {
+  width: 250px;
+  height: 60.8%;
+  background: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 30px;
+  margin-left: -105px;
+  margin-top: 150px;
+}
+
+.container-five-image {
+  display: flex;
+  align-items: flex-start;
+}
+
+.container-five-image img {
+  width: 30px;
+  border: 2px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+.container-five-name {
+  color: hsl(217, 19%, 35%);
+  position: relative;
+  left: 13px;
+  align-items: left;
+  text-align: left;
+  font-weight: 700;
+}
+.span-opacity {
+  opacity: 50%;
+  font-size: 11px;
+  font-weight: lighter;
+}
+.container-five-texts {
+  font-size: 15px;
+  align-items: left;
+  text-align: left;
+  margin-top: 20px;
+  color: hsl(217, 19%, 35%);
+}
+.container-five-texts h4 {
+  font-size: 20px;
+}
+.container-five-texts p {
+  font-size: 13.5px;
+  margin-top: 20px;
+  opacity: 80%;
+  font-weight: 500;
+}
+
+/* container-five-close */
+
+/* responsive */
+
+@media screen and (max-width: 375px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    width: 30%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* container-one-open */
+  .container-one {
+    width: 300px;
+    height: 370px;
+    margin: 5px;
+  }
+  .container-one-texts {
+    font-size: 12px;
+    align-items: left;
+    text-align: left;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+  }
+  .container-one-texts h4 {
+    font-size: 15px;
+  }
+  .container-one-texts p {
+    font-size: 12px;
+    margin-top: 20px;
+    opacity: 50%;
+    font-weight: 500;
+  }
+
+  /* container-one-close */
+
+  /* container-two-open */
+  .container-two {
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+  }
+  .container-two-texts {
+    font-size: 12px;
+    align-items: left;
+    text-align: left;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+  }
+  .container-two-texts h4 {
+    font-size: 15px;
+  }
+  .container-two-texts p {
+    font-size: 12px;
+    margin-top: 20px;
+    opacity: 50%;
+    font-weight: 500;
+  }
+
+  /*container-two-close */
+
+  /*container-tree-open */
+  .container-tree {
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    position: relative;
+    right: 310px;
+    top: 580px;
+  }
+  .container-tree-texts {
+    font-size: 12px;
+    align-items: left;
+    text-align: left;
+    margin-top: 20px;
+    color: hsl(217, 19%, 35%);
+  }
+  .container-tree-texts h4 {
+    font-size: 15px;
+  }
+  .container-tree-texts p {
+    font-size: 12px;
+    margin-top: 20px;
+    opacity: 50%;
+    font-weight: 500;
+  }
+
+  /*container-tree-close */
+
+  /* container-four-open */
+  .container-four {
+    width: 300px;
+    height: 250px;
+    margin: 5px;
+    position: relative;
+    right: 310px;
+    top: 580px;
+  }
+  .container-four-texts {
+    font-size: 12px;
+    align-items: left;
+    text-align: left;
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+  }
+  .container-four-texts h4 {
+    font-size: 12px;
+  }
+  .container-four-texts p {
+    font-size: 10px;
+    margin-top: 20px;
+    opacity: 50%;
+    font-weight: 500;
+  }
+
+  /*container-four-close */
+
+  /*container-five-open */
+
+  .container-five {
+    width: 400px;
+    height: 350px;
+    margin: 5px;
+    position: relative;
+    right: 100px;
+    top: 1020px;
+  }
+  .container-five-texts {
+    font-size: 10px;
+    align-items: left;
+    text-align: left;
+    margin-top: 20px;
+    color: hsl(217, 19%, 35%);
+  }
+  .container-five-texts h4 {
+    font-size: 10px;
+  }
+  .container-five-texts p {
+    font-size: 10px;
+    margin-top: 20px;
+    opacity: 80%;
+    font-weight: 500;
+  }
+
+  /*container-five-close */
+}
